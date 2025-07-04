@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+</head>
+<style>
+     body{
+        width: 1181px;
+        height: 712px;
+        top: 154px;
+        left: 198px;
+        border: 1px;
+ 
+        background-color: #121212;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+     }
+
+     .signup-cotainer{
+        background-color: #1e1e1e;
+        padding: 30px;
+        border: 1px solid #00bfff;
+        border-radius: 8px;
+        width: 350px;
+     }
+     .signup-cotainer h2{
+        margin-bottom: 20px;
+        color: #ffffff;
+     }
+     form label{
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 5px;
+     }
+      
+      input[type="text"]
+       input[type="email"] 
+       input[type="password"]
+        input[type="confirm password"]{
+            width: 100%;
+            padding: 8px;
+            background-color: #2e2e2e;
+            border: 1px solid #555;
+            border-radius: 4px;
+            color: white;
+        }
+        .radio-group{
+            margin-top: 15px;
+        }
+        .radio-group label{
+             margin-right: 15px;
+        }
+        button{
+            margin-top: 20px;
+            width: 50%;
+            padding: 10px;
+            background-color: #555;
+            color: #ccc;
+            border: none;
+            cursor: not-allowed;
+            text-align: center;
+        }
+</style>
+<body class="signup">
+    <header>
+
+        <div class="signup-container">
+            
+        </div>
+    </header>
+
+     <main>
+        <div>
+            <h2>signup</h2>
+<form>
+    <label> </label>
+<input type="text" placeholder="Enter your full name "required>
+
+<label> </label>
+<input type="email" placeholder="Email "required>
+<label> </label>
+<input type="password" placeholder="Password "required>
+<label> </label>
+<input type="confirm password" placeholder="Confirm Password "required>
+
+<label></label>
+<input type="DOB" placeholder="DD/MM/YYYY "required>
+<div class="radio-group">
+    <label><input type="radio" name="role" value="student" required>Student</label>
+    <label><input type="radio" name="role" value="employee" required>employee</label>
+</div>
+<label class="terms">
+    <input type="checkbox" required>I agree to all Terms and conditions
+</label>
+<button type="submit" disabled>Signup</button>
+</form>
+        </div>
+     </main>
+     
+     <footer></footer>
+    
+</body>
+</html>
